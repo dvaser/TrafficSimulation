@@ -1,6 +1,6 @@
 # Traffic Simulation
 
-<div align="left">
+<div align="center">
   <div >
     <img src="https://github.com/dvaser/TrafficSimulation/assets/74770052/01de83cd-77bd-4069-86f1-44d4bde5db91" width=75%"> <br>
   </div>
