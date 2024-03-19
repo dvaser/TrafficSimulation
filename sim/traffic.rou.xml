@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-01-21 12:39:49 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="pedestrian" vClass="pedestrian" color="magenta"/>
+    <vType id="vehicle_1" maxSpeed="80.00" guiShape="passenger/hatchback" color="0,243,255"/>
+    <vType id="vehicle_2" maxSpeed="75.00" vClass="hov" guiShape="passenger/van" color="155,78,180"/>
+    <vType id="vehicle_bus" maxSpeed="60.00" vClass="bus" guiShape="bus/coach" color="204,22,22"/>
+    <vType id="vehicle_emergency" maxSpeed="80.00" vClass="emergency" guiShape="emergency" color="250,239,239"/>
+    <vType id="vehicle_polis" maxSpeed="80.00" vClass="authority" guiShape="police" color="38,39,41"/>
+    <vType id="vehicle_taxi" maxSpeed="85.00" vClass="taxi" color="255,230,0"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="t_0" type="vehicle_1" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_1" type="vehicle_1" depart="0.00" from="Y2" to="Y41"/>
+    <trip id="t_10" type="vehicle_1" depart="0.00" from="Y4" to="Y211" via="Y21"/>
+    <trip id="t_100" type="vehicle_2" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_101" type="vehicle_emergency" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_102" type="vehicle_polis" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_103" type="vehicle_taxi" depart="0.00" from="Y5" to="Y1" via="Y11"/>
+    <trip id="t_104" type="vehicle_taxi" depart="0.00" from="Y4" to="Y6" via="Y21"/>
+    <trip id="t_105" type="vehicle_emergency" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_106" type="vehicle_bus" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_107" type="vehicle_2" depart="0.00" from="Y4" to="Y211" via="Y21"/>
+    <trip id="t_108" type="vehicle_2" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_109" type="vehicle_1" depart="0.00" from="Y5" to="Y1" via="Y11"/>
+    <trip id="t_11" type="vehicle_2" depart="0.00" from="Y111" to="Y1" via="Y11"/>
+    <trip id="t_110" type="vehicle_emergency" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_111" type="vehicle_polis" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_112" type="vehicle_bus" depart="0.00" from="Y111" to="Y3" via="Y11"/>
+    <trip id="t_113" type="vehicle_1" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_114" type="vehicle_1" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_115" type="vehicle_1" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_116" type="vehicle_2" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_117" type="vehicle_2" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_118" type="vehicle_polis" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_119" type="vehicle_emergency" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_12" type="vehicle_2" depart="0.00" from="Y111" to="Y1" via="Y11"/>
+    <trip id="t_13" type="vehicle_2" depart="0.00" from="Y111" to="Y1" via="Y11"/>
+    <trip id="t_14" type="vehicle_2" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_15" type="vehicle_2" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_16" type="vehicle_2" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_17" type="vehicle_2" depart="0.00" from="Y2" to="Y41"/>
+    <trip id="t_18" type="vehicle_2" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_19" type="vehicle_2" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_2" type="vehicle_1" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_20" type="vehicle_2" depart="0.00" from="Y111" to="Y3" via="Y11"/>
+    <trip id="t_21" type="vehicle_2" depart="0.00" from="Y111" to="Y3" via="Y11"/>
+    <trip id="t_22" type="vehicle_2" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_23" type="vehicle_2" depart="0.00" from="Y111" to="Y6"/>
+    <trip id="t_24" type="vehicle_2" depart="0.00" from="Y5" to="Y211"/>
+    <trip id="t_25" type="vehicle_2" depart="0.00" from="Y5" to="Y211"/>
+    <trip id="t_26" type="vehicle_taxi" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_27" type="vehicle_taxi" depart="0.00" from="Y111" to="Y6"/>
+    <trip id="t_28" type="vehicle_taxi" depart="0.00" from="Y111" to="Y3" via="Y11"/>
+    <trip id="t_29" type="vehicle_taxi" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_3" type="vehicle_1" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_30" type="vehicle_taxi" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_31" type="vehicle_taxi" depart="0.00" from="Y111" to="Y1" via="Y11"/>
+    <trip id="t_32" type="vehicle_bus" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_33" type="vehicle_bus" depart="0.00" from="Y111" to="Y1" via="Y11"/>
+    <trip id="t_34" type="vehicle_bus" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_35" type="vehicle_polis" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_36" type="vehicle_polis" depart="0.00" from="Y31" to="Y211" via="Y21"/>
+    <trip id="t_37" type="vehicle_polis" depart="0.00" from="Y4" to="Y6" via="Y21"/>
+    <trip id="t_38" type="vehicle_emergency" depart="0.00" from="Y111" to="Y3" via="Y11"/>
+    <trip id="t_39" type="vehicle_emergency" depart="0.00" from="Y111" to="Y1" via="Y11"/>
+    <trip id="t_4" type="vehicle_1" depart="0.00" from="Y111" to="Y3" via="Y11"/>
+    <trip id="t_40" type="vehicle_bus" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_41" type="vehicle_2" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_42" type="vehicle_2" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_43" type="vehicle_emergency" depart="0.00" from="Y4" to="Y211" via="Y21"/>
+    <trip id="t_44" type="vehicle_polis" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_45" type="vehicle_polis" depart="0.00" from="Y31" to="Y3"/>
+    <trip id="t_46" type="vehicle_taxi" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_47" type="vehicle_taxi" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_48" type="vehicle_taxi" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_49" type="vehicle_1" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_5" type="vehicle_1" depart="0.00" from="Y111" to="Y1" via="Y11"/>
+    <trip id="t_50" type="vehicle_1" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_51" type="vehicle_1" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_52" type="vehicle_bus" depart="0.00" from="Y4" to="Y211" via="Y21"/>
+    <trip id="t_53" type="vehicle_emergency" depart="0.00" from="Y2" to="Y41"/>
+    <trip id="t_54" type="vehicle_emergency" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_55" type="vehicle_taxi" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_56" type="vehicle_taxi" depart="0.00" from="Y31" to="Y3"/>
+    <trip id="t_57" type="vehicle_taxi" depart="0.00" from="Y31" to="Y3"/>
+    <trip id="t_58" type="vehicle_taxi" depart="0.00" from="Y4" to="Y6" via="Y21"/>
+    <trip id="t_59" type="vehicle_taxi" depart="0.00" from="Y4" to="Y6" via="Y21"/>
+    <trip id="t_6" type="vehicle_1" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_60" type="vehicle_1" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_61" type="vehicle_1" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_62" type="vehicle_1" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_63" type="vehicle_1" depart="0.00" from="Y31" to="Y6" via="Y21"/>
+    <trip id="t_64" type="vehicle_1" depart="0.00" from="Y31" to="Y6" via="Y21"/>
+    <trip id="t_65" type="vehicle_1" depart="0.00" from="Y31" to="Y6" via="Y21"/>
+    <trip id="t_66" type="vehicle_1" depart="0.00" from="Y31" to="Y211" via="Y21"/>
+    <trip id="t_67" type="vehicle_2" depart="0.00" from="Y31" to="Y3"/>
+    <trip id="t_68" type="vehicle_2" depart="0.00" from="Y31" to="Y3"/>
+    <trip id="t_69" type="vehicle_2" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_7" type="vehicle_1" depart="0.00" from="Y111" to="Y6"/>
+    <trip id="t_70" type="vehicle_2" depart="0.00" from="Y4" to="Y41"/>
+    <trip id="t_71" type="vehicle_2" depart="0.00" from="Y31" to="Y3"/>
+    <trip id="t_72" type="vehicle_2" depart="0.00" from="Y31" to="Y211" via="Y21"/>
+    <trip id="t_73" type="vehicle_2" depart="0.00" from="Y31" to="Y6" via="Y21"/>
+    <trip id="t_74" type="vehicle_bus" depart="0.00" from="Y31" to="Y6" via="Y21"/>
+    <trip id="t_75" type="vehicle_bus" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_76" type="vehicle_emergency" depart="0.00" from="Y2" to="Y41"/>
+    <trip id="t_77" type="vehicle_emergency" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_78" type="vehicle_emergency" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_79" type="vehicle_polis" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_8" type="vehicle_1" depart="0.00" from="Y31" to="Y6" via="Y21"/>
+    <trip id="t_80" type="vehicle_polis" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_81" type="vehicle_2" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_82" type="vehicle_1" depart="0.00" from="Y2" to="Y41"/>
+    <trip id="t_83" type="vehicle_1" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_84" type="vehicle_1" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_85" type="vehicle_bus" depart="0.00" from="Y4" to="Y211" via="Y21"/>
+    <trip id="t_86" type="vehicle_polis" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_87" type="vehicle_emergency" depart="0.00" from="Y2" to="Y41"/>
+    <trip id="t_88" type="vehicle_emergency" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_89" type="vehicle_taxi" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_9" type="vehicle_1" depart="0.00" from="Y4" to="Y6" via="Y21"/>
+    <trip id="t_90" type="vehicle_taxi" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_91" type="vehicle_taxi" depart="0.00" from="Y111" to="Y3" via="Y11"/>
+    <trip id="t_92" type="vehicle_taxi" depart="0.00" from="Y111" to="Y41" via="Y11"/>
+    <trip id="t_93" type="vehicle_1" depart="0.00" from="Y2" to="Y3"/>
+    <trip id="t_94" type="vehicle_1" depart="0.00" from="Y2" to="Y211" via="Y21"/>
+    <trip id="t_95" type="vehicle_1" depart="0.00" from="Y2" to="Y41"/>
+    <trip id="t_96" type="vehicle_1" depart="0.00" from="Y2" to="Y6" via="Y21"/>
+    <trip id="t_97" type="vehicle_1" depart="0.00" from="Y5" to="Y3" via="Y11"/>
+    <trip id="t_98" type="vehicle_2" depart="0.00" from="Y5" to="Y1" via="Y11"/>
+    <trip id="t_99" type="vehicle_2" depart="0.00" from="Y5" to="Y211"/>
+    <person id="p_0" depart="0.00">
+        <walk from="Y2" to="Y211"/>
+    </person>
+    <person id="p_1" depart="0.00">
+        <walk from="Y2" to="Y211"/>
+    </person>
+    <person id="p_10" depart="0.00" color="255,0,219">
+        <walk from="Y4" to="Y211"/>
+    </person>
+    <person id="p_11" depart="0.00" color="255,0,219">
+        <walk from="Y4" to="Y211"/>
+    </person>
+    <person id="p_12" depart="0.00" color="255,0,219">
+        <walk from="Y5" to="Y1"/>
+    </person>
+    <person id="p_13" depart="0.00" color="255,0,219">
+        <walk from="Y5" to="Y1"/>
+    </person>
+    <person id="p_14" depart="0.00" color="255,0,219">
+        <walk from="Y5" to="Y1"/>
+    </person>
+    <person id="p_15" depart="0.00" color="0,225,255">
+        <walk from="Y31" to="Y3"/>
+    </person>
+    <person id="p_16" depart="0.00" color="0,225,255">
+        <walk from="Y4" to="Y41"/>
+    </person>
+    <person id="p_17" depart="0.00" color="0,225,255">
+        <walk from="Y4" to="Y41"/>
+    </person>
+    <person id="p_18" depart="0.00" color="0,225,255">
+        <walk from="Y31" to="Y3"/>
+    </person>
+    <person id="p_19" depart="0.00" color="0,225,255">
+        <walk from="Y111" to="Y1"/>
+    </person>
+    <person id="p_2" depart="0.00">
+        <walk from="Y2" to="Y211"/>
+    </person>
+    <person id="p_20" depart="0.00" color="0,225,255">
+        <walk from="Y111" to="Y1"/>
+    </person>
+    <person id="p_21" depart="0.00" color="0,225,255">
+        <walk from="Y111" to="Y1"/>
+    </person>
+    <person id="p_22" depart="0.00" color="0,225,255">
+        <walk from="Y2" to="Y211"/>
+    </person>
+    <person id="p_23" depart="0.00" color="0,225,255">
+        <walk from="Y2" to="Y3"/>
+    </person>
+    <person id="p_24" depart="0.00" color="0,225,255">
+        <walk from="Y2" to="Y3"/>
+    </person>
+    <person id="p_25" depart="0.00" color="0,225,255">
+        <walk from="Y31" to="Y1"/>
+    </person>
+    <person id="p_26" depart="0.00" color="0,225,255">
+        <walk from="Y31" to="Y1"/>
+    </person>
+    <person id="p_27" depart="0.00" color="0,225,255">
+        <walk from="Y31" to="Y211"/>
+    </person>
+    <person id="p_28" depart="0.00" color="0,225,255">
+        <walk from="Y31" to="Y6"/>
+    </person>
+    <person id="p_29" depart="0.00" color="0,225,255">
+        <walk from="Y31" to="Y6"/>
+    </person>
+    <person id="p_3" depart="0.00">
+        <walk from="Y2" to="Y211"/>
+    </person>
+    <person id="p_4" depart="0.00">
+        <walk from="Y31" to="Y3"/>
+    </person>
+    <person id="p_5" depart="0.00">
+        <walk from="Y31" to="Y3"/>
+    </person>
+    <person id="p_6" depart="0.00" color="255,0,219">
+        <walk from="Y4" to="Y41"/>
+    </person>
+    <person id="p_7" depart="0.00" color="255,0,219">
+        <walk from="Y4" to="Y41"/>
+    </person>
+    <person id="p_8" depart="0.00" color="255,0,219">
+        <walk from="Y4" to="Y41"/>
+    </person>
+    <person id="p_9" depart="0.00" color="255,0,219">
+        <walk from="Y4" to="Y211"/>
+    </person>
+</routes>
